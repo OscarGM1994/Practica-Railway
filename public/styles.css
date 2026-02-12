@@ -24,3 +24,19 @@ button {
   cursor: pointer;
 }
 button:hover { background-color: #005fa3; }
+
+/* Contenedor de la imagen */
+.image-container {
+  width: 100%;
+  max-width: 500px; /* Ajusta este ancho según tu gusto */
+  padding: 20px;
+}
+
+/* Ajuste de la imagen */
+.image-container img {
+  width: 100%;       /* La imagen ocupa el 100% de su contenedor */
+  height: auto;      /* Mantiene la proporción original */
+  display: block;    /* Elimina espacios en blanco extra abajo */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Un toque de sombra elegante */
+}
